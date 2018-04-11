@@ -5,12 +5,12 @@ k,
 A,
 F,
 P,
-Q,
 w,
 NN,
 L,
 H,
-MM
+MM,
+RR
 );
 date = "2015-11-26 23:40:02 +0000";
 familyName = "new Font";
@@ -436,7 +436,7 @@ unicode = 004D;
 },
 {
 glyphname = N;
-lastChange = "2018-04-03 14:19:50 +0000";
+lastChange = "2018-04-03 14:47:42 +0000";
 layers = (
 {
 layerId = "9C958F37-6569-4215-B1A1-286FA8FB18A6";
@@ -445,9 +445,7 @@ paths = (
 closed = 1;
 nodes = (
 "441 0 LINE",
-"322 283 OFFCURVE",
-"204 567 OFFCURVE",
-"85 850 CURVE",
+"85 850 LINE",
 "178 850 LINE",
 "533 0 LINE"
 );
@@ -482,6 +480,7 @@ width = 600;
 }
 );
 unicode = 004E;
+changeCount = 1;
 },
 {
 glyphname = O;
@@ -701,13 +700,74 @@ unicode = 0051;
 },
 {
 glyphname = R;
+lastChange = "2018-04-03 18:01:44 +0000";
 layers = (
 {
 layerId = "9C958F37-6569-4215-B1A1-286FA8FB18A6";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"86 0 LINE",
+"0 0 LINE",
+"0 850 LINE",
+"86 850 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"299 850 LINE",
+"299 764 LINE",
+"1 764 LINE",
+"1 850 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"300 336 LINE",
+"300 250 LINE",
+"0 250 LINE",
+"0 336 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"600 0 LINE",
+"501 0 LINE",
+"229 425 LINE",
+"328 425 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"-88 337 OFFCURVE",
+"299 337 CURVE SMOOTH",
+"415 337 OFFCURVE",
+"512 433 OFFCURVE",
+"512 549 CURVE SMOOTH",
+"512 667 OFFCURVE",
+"415 762 OFFCURVE",
+"299 762 CURVE",
+"299 850 LINE",
+"464 850 OFFCURVE",
+"598 716 OFFCURVE",
+"598 549 CURVE SMOOTH",
+"598 385 OFFCURVE",
+"464 250 OFFCURVE",
+"299 250 CURVE SMOOTH",
+"13 250 OFFCURVE"
+);
+}
+);
+width = 800;
 }
 );
 unicode = 0052;
+changeCount = 106;
 },
 {
 glyphname = S;
